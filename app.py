@@ -14,7 +14,7 @@ st.write('---')
 
 st.sidebar.header('Specify Input Parameters')
 
-X = pd.read_csv('A:\Madhana\Program\Python\Heart_disease\heart.csv')
+X = pd.read_csv('heart.csv')
 X_train = X.drop("Target", axis=1)
 y_train = X['Target']
 
